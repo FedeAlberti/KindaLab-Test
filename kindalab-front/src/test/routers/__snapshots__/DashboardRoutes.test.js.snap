@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on DashboardRoutes Should appear 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      FOOD LOCALIZER
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/food"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Localize Food
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Fede
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container-fluid"
+  >
+    <div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-6"
+        >
+          <div
+            className="react-bs-table-container"
+          >
+            <div
+              className="react-bs-table"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "height": "100%",
+                  "maxHeight": undefined,
+                }
+              }
+            >
+              <div
+                className="react-bs-container-header table-header-wrapper"
+              >
+                <table
+                  className="table table-hover"
+                >
+                  <colgroup>
+                    <col
+                      key="select-col"
+                      style={
+                        Object {
+                          "minWidth": "38px",
+                          "width": "38px",
+                        }
+                      }
+                    />
+                    <col
+                      key="0"
+                      style={
+                        Object {
+                          "display": null,
+                          "minWidth": "0%",
+                          "width": "0%",
+                        }
+                      }
+                    />
+                    <col
+                      key="1"
+                      style={
+                        Object {
+                          "display": null,
+                        }
+                      }
+                    />
+                    <col
+                      key="2"
+                      style={
+                        Object {
+                          "display": null,
+                        }
+                      }
+                    />
+                    <col
+                      key="3"
+                      style={
+                        Object {
+                          "display": null,
+                          "minWidth": "7Em",
+                          "width": "7Em",
+                        }
+                      }
+                    />
+                  </colgroup>
+                  <thead>
+                    <tr
+                      key="0"
+                    >
+                      <th
+                        data-is-only-head={false}
+                        rowSpan={1}
+                        style={
+                          Object {
+                            "textAlign": "center",
+                          }
+                        }
+                      >
+                        <input
+                          checked={false}
+                          className="react-bs-select-all"
+                          onChange={[Function]}
+                          type="checkbox"
+                        />
+                      </th>
+                      <th
+                        className="sort-column"
+                        data-is-only-head={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "display": null,
+                            "textAlign": "left",
+                          }
+                        }
+                        title="objectid"
+                      >
+                        objectid
+                        <span
+                          className="order fa fa-sort"
+                          style={
+                            Object {
+                              "color": "#ccc",
+                              "margin": "10px 0 10px 5px",
+                            }
+                          }
+                        />
+                        <div
+                          onClick={[Function]}
+                        />
+                      </th>
+                      <th
+                        className="sort-column"
+                        data-is-only-head={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "display": null,
+                            "textAlign": "left",
+                          }
+                        }
+                        title="Applicant"
+                      >
+                        Applicant
+                        <span
+                          className="order fa fa-sort"
+                          style={
+                            Object {
+                              "color": "#ccc",
+                              "margin": "10px 0 10px 5px",
+                            }
+                          }
+                        />
+                        <div
+                          onClick={[Function]}
+                        />
+                      </th>
+                      <th
+                        className="sort-column"
+                        data-is-only-head={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "display": null,
+                            "textAlign": "left",
+                          }
+                        }
+                        title="address"
+                      >
+                        address
+                        <span
+                          className="order fa fa-sort"
+                          style={
+                            Object {
+                              "color": "#ccc",
+                              "margin": "10px 0 10px 5px",
+                            }
+                          }
+                        />
+                        <div
+                          onClick={[Function]}
+                        />
+                      </th>
+                      <th
+                        className=""
+                        data-is-only-head={false}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "display": null,
+                            "textAlign": "left",
+                          }
+                        }
+                        title="facilitytype"
+                      >
+                        facilitytype
+                        <div
+                          onClick={[Function]}
+                        />
+                      </th>
+                    </tr>
+                  </thead>
+                </table>
+              </div>
+              <div
+                className="react-bs-container-body"
+                style={
+                  Object {
+                    "height": "100%",
+                    "maxHeight": undefined,
+                  }
+                }
+              >
+                <table
+                  className="table"
+                >
+                  <colgroup>
+                    <col
+                      key="select-col"
+                      style={
+                        Object {
+                          "minWidth": "38px",
+                          "width": "38px",
+                        }
+                      }
+                    />
+                    <col
+                      key="0"
+                      style={
+                        Object {
+                          "display": null,
+                          "minWidth": "0%",
+                          "width": "0%",
+                        }
+                      }
+                    />
+                    <col
+                      key="1"
+                      style={
+                        Object {
+                          "display": null,
+                        }
+                      }
+                    />
+                    <col
+                      key="2"
+                      style={
+                        Object {
+                          "display": null,
+                        }
+                      }
+                    />
+                    <col
+                      key="3"
+                      style={
+                        Object {
+                          "display": null,
+                          "minWidth": "7Em",
+                          "width": "7Em",
+                        }
+                      }
+                    />
+                  </colgroup>
+                  <tbody>
+                    <tr
+                      className=""
+                      hidden={false}
+                      onClick={[Function]}
+                      onDoubleClick={[Function]}
+                      onMouseOut={[Function]}
+                      onMouseOver={[Function]}
+                      style={Object {}}
+                    >
+                      <td
+                        className="react-bs-table-no-data"
+                        colSpan={5}
+                        data-toggle="collapse"
+                      >
+                        There is no data to display
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div
+              className="react-bs-table-pagination"
+            >
+              <div
+                className="row"
+                style={
+                  Object {
+                    "marginTop": 15,
+                  }
+                }
+              >
+                <div
+                  className="col-md-6 col-xs-6 col-sm-6 col-lg-6"
+                  key="paging-left"
+                >
+                  <span
+                    className="dropdown   react-bs-table-sizePerPage-dropdown"
+                  >
+                    <button
+                      aria-expanded={false}
+                      aria-haspopup={true}
+                      className="btn btn-default btn-secondary dropdown-toggle"
+                      data-toggle="dropdown"
+                      id="pageDropDown"
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                    >
+                      10
+                      <span>
+                         
+                        <span
+                          className="caret"
+                        />
+                      </span>
+                    </button>
+                    <div
+                      aria-labelledby="pageDropDown"
+                      className="dropdown-menu "
+                      role="menu"
+                    >
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        key="10"
+                        onMouseDown={[Function]}
+                        tabIndex="-1"
+                      >
+                        10
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        key="25"
+                        onMouseDown={[Function]}
+                        tabIndex="-1"
+                      >
+                        25
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        key="30"
+                        onMouseDown={[Function]}
+                        tabIndex="-1"
+                      >
+                        30
+                      </a>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        key="50"
+                        onMouseDown={[Function]}
+                        tabIndex="-1"
+                      >
+                        50
+                      </a>
+                    </div>
+                  </span>
+                </div>
+                <div
+                  className="col-md-6 col-xs-6 col-sm-6 col-lg-6"
+                  key="paging-right"
+                  style={
+                    Object {
+                      "display": "block",
+                    }
+                  }
+                >
+                  <ul
+                    className="react-bootstrap-table-page-btns-ul pagination"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="s-alert-wrapper"
+            />
+          </div>
+        </div>
+        <div
+          className="col-6 sticky"
+        >
+          <div
+            className="col"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
