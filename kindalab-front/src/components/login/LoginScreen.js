@@ -3,10 +3,9 @@ import React, { useContext } from 'react';
 import { useForm } from '../../hooks/useForm';
 import Swal from 'sweetalert2';
 
-import './login.css';
 import { AuthContext } from '../../auth/AuthContext';
 import {LoginAction, RegisterAction} from '../../actions/authAction'
-import { typesAuth } from '../../types/typesAuth';
+import './login.css';
 
 
 export const LoginScreen = ({history}) => {
@@ -89,7 +88,7 @@ export const LoginScreen = ({history}) => {
         <div className="container login-container">
             <div className="row">
                 <div className="col-md-6 login-form-1">
-                    <h3>Ingreso</h3>
+                    <h3>Log In</h3>
                     <form onSubmit={ handleLogin }>
                         <div className="form-group">
                             <input 
@@ -122,7 +121,7 @@ export const LoginScreen = ({history}) => {
                 </div>
 
                 <div className="col-md-6 login-form-2">
-                    <h3>Registro</h3>
+                    <h3>Register</h3>
                     <form onSubmit={ handleRegister }>
                         <div className="form-group">
                             <input

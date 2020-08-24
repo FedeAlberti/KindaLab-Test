@@ -1,8 +1,10 @@
 import React, { useContext, useState } from 'react'
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
-import { Icon } from "leaflet";
+import { Icon } from 'leaflet';
+
 import { DataContext } from './DataContext';
-import "./food.css";
+
+import './food.css';
 
 
 export const MapLoc = () => {
@@ -31,7 +33,7 @@ export const MapLoc = () => {
 
     return (
         <div className="col-6 ">
-            <Map className="col" center={[37.78, -122.45]} zoom={12.5}>
+            <Map className="col" center={[37.78, -122.45]} zoom={12}>
                 <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='Federico Alberti'

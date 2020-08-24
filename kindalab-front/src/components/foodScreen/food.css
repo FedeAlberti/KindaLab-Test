@@ -1,0 +1,60 @@
+.leaflet-container {
+    width: 80em;
+    height: 80vh;
+}
+
+.screen-container {
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  padding: 1%;
+  margin: 1%;
+  max-height: 85vh;
+  overflow:-moz-hidden-unscrollable
+}
+
+.not-exeed{
+  max-height: 80vh;
+  overflow:auto
+}
+
+.centerDiv {
+  margin: 30vh;
+  text-align: center;
+}
+
+.loader{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.loader:before, .loader:after{
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 10px solid transparent;
+  border-top-color: #0062cc;
+  animation: spin 1s infinite;
+}
+
+@keyframes spin{
+  0%{
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%{
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

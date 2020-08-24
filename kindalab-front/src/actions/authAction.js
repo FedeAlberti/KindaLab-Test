@@ -37,10 +37,8 @@ export const RegisterAction = async( email, password, name , dispatch) => {
     }
 
 export const LogoutAction = (dispatch) => {
-    {
         localStorage.clear();
         dispatch( logout())
-    }
 }
 
 const login = ( user ) => ({
